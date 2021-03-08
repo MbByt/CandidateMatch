@@ -9,6 +9,8 @@ This project selects the best candidate for a job among the candidates provided 
 The best candidate is matched with a provided job of JobAdder Job API based on Skill Tags.
 This project exposes one standard RESTfull APIs:
 api/bestCandidate/{JobId} where {JobId} is the Id of a desired Job.
+
+
 Sample of data returnd by this API in JSON format:
 {
 	"candidateId":34,
