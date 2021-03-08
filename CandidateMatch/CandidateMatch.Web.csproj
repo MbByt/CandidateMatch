@@ -14,6 +14,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\CandidateMatch.Common\CandidateMatch.Common.csproj" />
     <ProjectReference Include="..\CandidateMatch.Data\CandidateMatch.Data.csproj" />
     <ProjectReference Include="..\CandidateMatch.Services\CandidateMatch.Services.csproj" />
   </ItemGroup>
