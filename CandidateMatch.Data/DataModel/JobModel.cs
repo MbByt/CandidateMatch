@@ -11,7 +11,7 @@ namespace CandidateMatch.Data.Models
 
         public string name { set; get; }
 
-        public string compny { set; get; }
+        public string company { set; get; }
 
         public string skills { set; get; }
 
