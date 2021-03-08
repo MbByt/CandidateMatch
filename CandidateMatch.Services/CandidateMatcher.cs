@@ -50,6 +50,7 @@ namespace CandidateMatch.Services
                 }
 
                 Points.Add((candidate.candidateId, CandidatePoints));
+                CandidatePoints = 0;
             }
 
 
