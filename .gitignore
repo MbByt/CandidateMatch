@@ -7,3 +7,5 @@
 /CandidateMatch/obj
 /CandidteMatch/obj
 /CandidteMatch/bin/Debug/netcoreapp2.1
+/CandidateMatch.Common/bin
+/CandidateMatch.Common/obj
