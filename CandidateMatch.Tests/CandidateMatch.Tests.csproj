@@ -7,6 +7,22 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <None Remove="appsettings.Development.json" />
+    <None Remove="appsettings.json" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="appsettings.Development.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+    </Content>
+    <Content Include="appsettings.json">
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="2.1.1" />
     <PackageReference Include="NUnit" Version="3.10.1" />
     <PackageReference Include="NUnit3TestAdapter" Version="3.10.0" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.8.0" />
@@ -16,6 +32,7 @@
     <ProjectReference Include="..\CandidateMatch.Common\CandidateMatch.Common.csproj" />
     <ProjectReference Include="..\CandidateMatch.Data\CandidateMatch.Data.csproj" />
     <ProjectReference Include="..\CandidateMatch.Services\CandidateMatch.Services.csproj" />
+    <ProjectReference Include="..\CandidateMatch\CandidateMatch.Web.csproj" />
   </ItemGroup>
 
 </Project>
