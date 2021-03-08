@@ -9,3 +9,5 @@
 /CandidteMatch/bin/Debug/netcoreapp2.1
 /CandidateMatch.Common/bin
 /CandidateMatch.Common/obj
+/CandidateMatch.Data/bin
+/CandidateMatch.Data/obj

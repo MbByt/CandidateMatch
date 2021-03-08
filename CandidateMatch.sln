@@ -7,6 +7,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateMatch.Web", "Candi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateMatch.Common", "CandidateMatch.Common\CandidateMatch.Common.csproj", "{2A31565A-0913-4ED9-A377-052C62F9D985}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateMatch.Data", "CandidateMatch.Data\CandidateMatch.Data.csproj", "{80CAAEDB-2AA8-4AAC-856A-A87390EAD53F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{2A31565A-0913-4ED9-A377-052C62F9D985}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2A31565A-0913-4ED9-A377-052C62F9D985}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2A31565A-0913-4ED9-A377-052C62F9D985}.Release|Any CPU.Build.0 = Release|Any CPU
+		{80CAAEDB-2AA8-4AAC-856A-A87390EAD53F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{80CAAEDB-2AA8-4AAC-856A-A87390EAD53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{80CAAEDB-2AA8-4AAC-856A-A87390EAD53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{80CAAEDB-2AA8-4AAC-856A-A87390EAD53F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
