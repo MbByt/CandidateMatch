@@ -9,6 +9,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateMatch.Common", "Ca
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateMatch.Data", "CandidateMatch.Data\CandidateMatch.Data.csproj", "{80CAAEDB-2AA8-4AAC-856A-A87390EAD53F}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CandidateMatch.Services", "CandidateMatch.Services\CandidateMatch.Services.csproj", "{FA927E30-DE64-4F14-ABE6-CFA04CCC5522}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{80CAAEDB-2AA8-4AAC-856A-A87390EAD53F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{80CAAEDB-2AA8-4AAC-856A-A87390EAD53F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{80CAAEDB-2AA8-4AAC-856A-A87390EAD53F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FA927E30-DE64-4F14-ABE6-CFA04CCC5522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FA927E30-DE64-4F14-ABE6-CFA04CCC5522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FA927E30-DE64-4F14-ABE6-CFA04CCC5522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FA927E30-DE64-4F14-ABE6-CFA04CCC5522}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
