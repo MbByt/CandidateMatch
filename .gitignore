@@ -5,3 +5,5 @@
 /.vs
 /CandidateMatch/bin
 /CandidateMatch/obj
+/CandidteMatch/obj
+/CandidteMatch/bin/Debug/netcoreapp2.1
