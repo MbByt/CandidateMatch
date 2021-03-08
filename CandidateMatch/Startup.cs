@@ -2,6 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using CandidateMatch.Common.Options;
+using CandidateMatch.Data.Context;
+using CandidateMatch.Services;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.HttpsPolicy;
@@ -26,6 +29,12 @@ namespace CandidateMatch
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
+            //Registering the Dependency Injections
+            
+            services.AddScoped<IJobAPIContext, JobAPIContext>();
+            services.AddScoped<ICandidateAPIContext, CandidateAPIContext>();
+            services.AddScoped<ICandidateMatcher, CandidateMatcher>();
+            services.AddSingleton<IJobAdderApiOptions,JobAdderApiOptions>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
